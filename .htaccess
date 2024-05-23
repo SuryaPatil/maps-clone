@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    RewriteRule ^api/search$ /api/search.php [L]
+    RewriteRule ^api/route$ /api/route.php [L,QSA]
+</IfModule>
+Options -MultiViews
